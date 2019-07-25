@@ -170,6 +170,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = DAAD0F8C1C4BE27B0042313D;
@@ -224,6 +225,7 @@
 		3D0EE4BA1EC1241100D0FA63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.florentpillet.NSLoggerSwift;
 				PRODUCT_NAME = NSLoggerSwift;
 				SWIFT_VERSION = 4.0;
@@ -233,6 +235,7 @@
 		3D0EE4BB1EC1241100D0FA63 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.florentpillet.NSLoggerSwift;
 				PRODUCT_NAME = NSLoggerSwift;
 				SWIFT_VERSION = 4.0;
